@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=../../public_html/[ADD WEBSITE FOLDER HERE]
+    - export DEPLOYPATH=../../public_html/topiarwolf.com/
     - cp -r ./dist/ $DEPLOYPATH
